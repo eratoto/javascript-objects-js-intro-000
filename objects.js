@@ -2,7 +2,7 @@ var playlist = {
   artistName: "I am Free"
 }
 
-function updatePlayList (playlist, artistName, songTitle) {
+function updatePlaylist (playlist, artistName, songTitle) {
   playlist.artistName = songTitle
   return playlist
 }
